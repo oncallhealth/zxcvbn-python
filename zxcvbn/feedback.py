@@ -1,5 +1,4 @@
-import PasswordErrors
-
+from password_errors import PasswordErrors
 
 def get_feedback(score, sequence):
     if len(sequence) == 0:
