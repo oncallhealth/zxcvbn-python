@@ -1,4 +1,4 @@
-from zxcvbn import PasswordErrors
+from . import PasswordErrors
 
 
 def get_feedback(score, sequence):
