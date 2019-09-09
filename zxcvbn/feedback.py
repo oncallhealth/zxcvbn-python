@@ -1,4 +1,4 @@
-from . import PasswordErrors
+import PasswordErrors
 
 
 def get_feedback(score, sequence):
