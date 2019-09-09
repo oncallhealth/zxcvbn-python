@@ -1,3 +1,5 @@
+from enum import Enum
+
 class PasswordErrors(Enum):
     ROWS = 1
     SHORT = 2
