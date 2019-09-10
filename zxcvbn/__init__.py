@@ -2,6 +2,10 @@ from datetime import datetime
 
 from . import matching, scoring, time_estimates, feedback
 
+from password_errors import PasswordErrors
+
+from enum import Enum
+
 def zxcvbn(password, user_inputs=None):
     try:
         # Python 2 string types
