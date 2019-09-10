@@ -8,7 +8,7 @@ setup(
     version='4.5',
     packages=['zxcvbn'],
     url='https://github.com/dwolfhub/zxcvbn-python',
-    download_url='https://github.com/oncallhealth/zxcvbn-python/tarball/v4.5',
+    download_url='https://github.com/oncallhealth/zxcvbn-python/archive/v4.5.tar.gz',
     license='MIT',
     author='Daniel Wolf',
     author_email='danielrwolf5@gmail.com',
