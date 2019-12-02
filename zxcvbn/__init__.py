@@ -1,8 +1,7 @@
 from datetime import datetime
 
-from . import matching, scoring, time_estimates, feedback
-
-from password_errors import PasswordErrors
+from zxcvbn import matching, scoring, time_estimates, feedback
+from zxcvbn.password_errors import PasswordErrors
 
 from enum import Enum
 
